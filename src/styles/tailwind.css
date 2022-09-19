@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-mobile{
+    background-image: url('../images/bg-simplify-section-mobile.svg');
+}
+
+.text-title{
+  color: #130932;
+}
+
+.text-content{
+  color: #a7a9a8;
+}
