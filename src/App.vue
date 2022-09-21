@@ -1,26 +1,33 @@
 <template>
-  <div class="bg-mobile h-[100px]">
+  <div class="bg-mobile ">
     <div class="navbar">
       <nav-bar-vue></nav-bar-vue>
     </div>
-  <div class="fisrt-session px-[20px]" :style="{'background-image' : 'url('+image+')'}">
-    <first-session></first-session>
+    <div class="fisrt-session px-[20px]" :style="{'background-image' : 'url('+image+')'}">
+      <first-session-vue></first-session-vue>
     </div>
     <div class="second-session  py-4">
-      <second-session></second-session>
+      <second-session-vue></second-session-vue>
     </div>
-
+    <div class="feedback">
+      <feedback-article></feedback-article>
+    </div>
+    <div class="get-started">
+      
+    </div>
   </div>
+
 </template>
 
 <script>
-import FirstSession from './components/First-Session.vue';
+import FirstSessionVue from './components/First-Session.vue';
 import NavBarVue from './components/Nav-Bar.vue';
-import SecondSession from './components/Second-Session.vue';
+import SecondSessionVue from './components/Second-Session.vue';
+import FeedbackArticle from './components/Feedback-Article.vue';
 export default {
   name: 'App',
   components:{
-    NavBarVue,FirstSession,SecondSession
+    NavBarVue,FirstSessionVue,SecondSessionVue,FeedbackArticle
   },
   data(){
     return{
