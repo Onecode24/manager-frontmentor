@@ -1,7 +1,7 @@
 <template>
  <div class=" my-16">
     <div class="profil">
-        <img :src="require(`@/images/${image}`)" alt="" class="rounded-full absolute mt-[-40px] ml-[40%] w-20 h-20">
+        <img :src="require(`@/images/${image}`)" alt="" class="rounded-full absolute mt-[-40px] md:ml-[13.5%] md:mt-[-40px] ml-[40%] w-20 h-20">
     </div>
     <div class="cardinfo px-8 mx-10 pt-16 bg-gray-200">
         <h2 class="text-lg font-semibold">{{name}}</h2>

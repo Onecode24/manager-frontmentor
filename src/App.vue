@@ -1,6 +1,6 @@
 <template>
   <div class=" ">
-    <div class="navbar">
+    <div class="navbar mt-10">
       <nav-bar-vue></nav-bar-vue>
     </div>
     <div class="fisrt-session bg-mobile px-[20px]" :style="{'background-image' : 'url('+image+')'}">
@@ -12,12 +12,12 @@
     <div class="feedback">
       <feedback-article></feedback-article>
     </div>
-    <div class="get-started text-center  mb-8 ">
+    <div class="get-started text-center md:text-lg  mb-8 md:pb-16 ">
       <button-global >Get Started</button-global>
     </div>
-    <div class="bg-[#ff441f] mt-16 text-center text-white px-14 py-20">
-      <h1 class=" text-3xl ">Simplify how your teams works today.</h1>
-      <button class="text-[#ff441f] font-medium bg-white mt-8 px-5 rounded-[15px] py-1">Get-started</button>
+    <div class="bg-[#ff441f] mt-16 text-center text-white px-14 py-20 md:flex justify-between">
+      <h1 class=" text-3xl md:w-[40%] md:text-4xl md:text-left md:leading-[40px]">Simplify how your teams works today.</h1>
+      <button class="text-[#ff441f] font-medium bg-white mt-8 px-5 rounded-[25px] py-1 md:text-lg shadow-lg shadow-white">Get-started</button>
     </div>
     <div class="footer text-white bg-black px-5 py-10">
       <footer-component-vue></footer-component-vue>
